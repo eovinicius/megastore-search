@@ -60,22 +60,3 @@ Foco em tabelas hash: a estrutura central é `HashMap` para acesso O(1) por toke
 ## Testes
 
 - `cargo test` executa suite de testes unitários e de integração.
-
-## Contribuições
-
-Pull requests bem-vindos. Abra issue descrevendo o problema antes de PR grande.
-
-## Licença
-
-MIT
-
-## Gerar PDF da documentação
-
-Há um relatório detalhado em `docs/report_detailed.md`. Para gerar o PDF localmente (Windows PowerShell):
-
-```powershell
-# Gere o PDF (requer pandoc e LaTeX/xelatex)
-.\scripts\generate_pdf.ps1
-```
-
-Isso gerará `docs/report_detailed.pdf`.
